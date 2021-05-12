@@ -1,0 +1,61 @@
+{
+        "rest_api_port": "4102",
+        "host": "0.0.0.0",
+        "url_prefix": "/insight",
+        "save_img_directory": "/home/safeuser/csce_insight_safety/images/camera_images/",
+        "device_dbname": "camera",
+        "alert_dbname": "alarm",
+        "workers_dbname": "workers",
+        "in_out_dbname": "in_out_stat",
+        "json_uploaad_limit": {
+                "limit": "50mb"
+        },
+        "graylog_options": {
+                "graylog_url": "http://192.168.1.24:12205/gelf",
+                "version": "1.1",
+                "host": "webtest",
+                "level": 1,
+                "facility": "iot_data"
+        },
+        "piwigo_options": {
+                "save_img_directory": "/home/safeuser/csce_insight_safety/images/camera_images/",
+                "url": "http://172.31.68.49:8081/",
+                "user": "admin",
+                "password": "Etag1234",
+                "category": {
+                        "category": 19
+                }
+        },
+        "CSCEHUB_dbconn": {
+                "host": "172.31.68.46",
+                "user": "csce",
+                "password": "c7c4",
+                "database": "CSCE_HUB"
+        },
+        "log_options": {
+                "LOG_PATH": "/home/safeuser/csce_insight_safety/logs",
+                "_iLOG_FILE_MAXSIZE": "1MB",
+                "_iLOG_FILE_COUNT": 4,
+                "sMQTTRemoteLogTopic": "",
+                "sMQTTRemoteLogHost": ""
+        },
+        "logger": {
+                "LOG_NAME": "%DATE%.log",
+                "level": "debug"
+        },
+        "restAPI_success_message": {
+                "code": "0",
+                "message": "success"
+        },
+        "graylog": {
+                "servers": [
+                        {
+                                "host": "",
+                                "port": 12201
+                        }
+                ],
+                "hostname": "webtest",
+                "facility": "csce_itt_hub/controller",
+                "bufferSize": 1045876
+        }
+}

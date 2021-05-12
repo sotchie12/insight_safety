@@ -1,0 +1,35 @@
+{
+	"image": "Base64 encoded Image",
+	"events": [
+		[{
+			"event": [{
+				"type": "helmet"
+			}, {
+				"alarm_id": "e1bf3097"
+			}, {
+				"desc": "安全帽"
+			}, {
+				"time": "20210422160812"
+			}, {
+				"camera": "17"
+			}, {
+				"siteID": "STANLEY"
+			}]
+		}],
+		[{
+			"event": [{
+				"type": "reflector"
+			}, {
+				"alarm_id": "e1bf3097"
+			}, {
+				"desc": "反光衣"
+			}, {
+				"time": "20210422160812"
+			}, {
+				"camera": "17"
+			}, {
+				"siteID": "STANLEY"
+			}]
+		}]
+	]
+}
